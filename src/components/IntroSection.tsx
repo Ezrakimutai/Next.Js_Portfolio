@@ -12,8 +12,8 @@ const IntroSection = () => {
             Hello, I'm Ezra Kimutai{" "}
           </span>{" "}
           <br></br>
-            /*This is the animation text slider for my skills using 
-              react-type-animation*/
+            /*This is the animation text slider for my skills using
+          react-type-animation*/
           <TypeAnimation
             sequence={[
               "Web Developer",
