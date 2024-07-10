@@ -1,5 +1,5 @@
-import Image from "next/image";
 import IntroSection from "@/components/IntroSection";
+import Image from "next/image";
 import Navbar from "@/components/NavBar";
 
 export default function Home() {
