@@ -2,6 +2,7 @@ import IntroSection from "@/components/IntroSection";
 import Image from "next/image";
 import Navbar from "@/components/NavBar";
 import About from "@/components/About";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
         <IntroSection />
-        <About/>
+        <About />
+        <Projects/>
       </div>
     </main>
   );

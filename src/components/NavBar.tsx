@@ -8,10 +8,6 @@ import MenuOverlay from "./MenuOverlay";
 //Navigation Bar Links
 const navLinks = [
   {
-    title: "Home",
-    path: "/",
-  },
-  {
     title: "About",
     path: "#about",
   },
