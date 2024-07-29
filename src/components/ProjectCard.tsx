@@ -13,15 +13,15 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, title, description , gitUrl, previewUrl}) => {
   return (
-    <div>
-      <div
-        className="group rounded-t-xl h-52 md:h-72 bg-center relative overflow-hidden"
+    <div className="bg-[#181818] rounded-xl overflow-hidden">
+      <div className="group rounded-t-xl h-52 md:h-72 bg-center relative overflow-hidden">
+        <Image
         src={imgUrl}
         alt={title}
         width={300}
         height={200}
-        style={{ background: `url(${imgUrl})`, backgroundSize: "contain" }}
-      >
+        className="object-cover w-full h-full"
+        />
         <div className="overlay absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 items-center justify-center">
           <Link
             href={gitUrl}
