@@ -9,7 +9,14 @@ const AnimatedNumbers = dynamic(
   { ssr: false }
 );
 
-const achievementsList = [
+interface Achievement {
+    prefix?: string;   // Make prefix optional
+    metric: string;
+    value: string;
+    postfix?: string;  // Make postfix optional
+  }
+
+const achievementsList: Achievement[] = [
     {
         metric: "Experience",
         value: "3",
@@ -46,13 +53,6 @@ const Achieve = () => {
                   animateToNumber={parseInt(achievement.value)}
                   locale="en-US"
                   className="text-white text-4xl font-bold"
-                  configs={(_, index) => {
-                    return {
-                      mass: 1,
-                      friction: 100,
-                      tensions: 140 * (index + 1),
-                    };
-                  }}
                 />
                 {achievement.postfix}
               </h2>
