@@ -12,7 +12,7 @@ const IntroSection = () => {
       <div className="col-span-7 place-self-center place-items-center grid lg:place-items-start">
         <h1 className="text-white max-w-2xl mb-4 lg:text-6xl text-4xl font-extrabold">
           <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">
-            Hello, I'm Ezra Kimutai{" "}
+            Hello, I&apos;m Ezra Kimutai{" "}
           </span>{" "}
           <br></br>
           <TypeAnimation

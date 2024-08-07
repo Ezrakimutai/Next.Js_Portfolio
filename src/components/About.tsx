@@ -41,7 +41,7 @@ const TabData: Tab[] = [
             <ul>
                 <li>JavaScript Algorithms and Data Structures ~ freeCodeCamp</li>
                 <li>Front-End Developer Carrer Path ~ Codecademy.org</li>
-                <li>Google Deveoper Student's Club ~CUK</li>
+                <li>Google Deveoper Student&apos;s Club ~CUK</li>
             </ul>
         )
     }
@@ -68,8 +68,8 @@ const About = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4 ">About Me</h2>
                     <p className="text-base text-white md:text-lg">
-                        I'm a front-end developer with a strong focus on building user-friendly and visually appealing web experiences. I have a knack for crafting clean, maintainable, and performant code using modern frameworks like Next.js and React. I'm constantly expanding my skillset, eager to tackle new challenges, and bring innovative ideas to life on the web. <br />
-                        ~"My code doesnt always work, but when it does, I feel like I could conquer the world. Or at least fix another bug 😁"
+                        I&apos;m a front-end developer with a strong focus on building user-friendly and visually appealing web experiences. I have a knack for crafting clean, maintainable, and performant code using modern frameworks like Next.js and React. I&apos;m constantly expanding my skillset, eager to tackle new challenges, and bring innovative ideas to life on the web. <br />
+                        &quot;My code doesnt always work, but when it does, I feel like I could conquer the world. Or at least fix another bug 😁&quot;
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton
