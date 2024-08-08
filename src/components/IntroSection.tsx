@@ -37,9 +37,14 @@ const IntroSection = () => {
             Hire Me
           </button>
           <button className="m-4 bg-gradient-to-br from-blue-500  to-green-500 px-1 py-1  text-white rounded-full">
+            <a
+            href="/Resume.pdf"
+            download="EzraKimutai_CV.pdf"
+            >
             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
               Download CV
             </span>
+            </a>
           </button>
         </div>
       </div>
