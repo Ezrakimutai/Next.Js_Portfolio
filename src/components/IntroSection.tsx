@@ -36,7 +36,7 @@ const IntroSection = () => {
           <button className="bg-gradient-to-br from-blue-500  to-green-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4">
             Hire Me
           </button>
-          <button className="m-4 bg-gradient-to-br from-blue-500  to-green-500 px-1 py-1  text-white rounded-full">
+          <button className="m-3 bg-gradient-to-br from-blue-500  to-green-500 px-1 py-1  text-white rounded-full">
             <a
             href="/Resume.pdf"
             download="EzraKimutai_CV.pdf"
